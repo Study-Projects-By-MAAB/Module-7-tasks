@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5th Task</title>
+    <style>
+        img{
+            width: 100%;
+        }
+        .text{
+            padding: 20px 20px 20px 20px;
+        }
+        h2{
+            margin-top: 0;
+        }
+        .box1, .box2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+       
+        .image2{
+            order: 2;
+        }
+        @media screen and (max-width:576px) {
+            .image2{
+                order: 0;
+            }
+            .box1, .box2{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="image">
+                <img src="https://hutchinsonconsulting.com/wp-content/uploads/2022/08/optimized_cityscape.jpg" alt="">
+            </div>
+                <div class="text">
+                    <h2>Why do we use it?</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus aspernatur et repudiandae commodi dolore eius velit perspiciatis nobis cumque quod iusto, ratione tempora, beatae sit qui sapiente atque ipsam.
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum hic nulla possimus reiciendis, illum deleniti asperiores! Possimus iste error beatae, illo delectus esse facere reiciendis, dolore veniam laborum eum sint.</p>
+                    </p>
+                </div>
+            
+        </div>
+        <div class="box2">
+            <div class="image image2">
+                <img src="https://media.istockphoto.com/id/1358448006/photo/autumn-in-bennington-vermont.webp?b=1&s=170667a&w=0&k=20&c=-9YGb-q9qajC2DhDPbIu739lxYY4rosiAWij8m7OO9c=" alt="">
+            </div>
+                <div class="text">
+                    <h2>Why do we use it?</h2>
+                    <p>
+                        Reiciendis dolore illum quia error est. At quibusdam, quae animi expedita minima delectus doloribus neque. Distinctio facere impedit enim necessitatibus blanditiis quibusdam nostrum ex praesentium voluptatibus quo? Dolores, maxime itaque!
+                        <p>Consectetur voluptatum doloremque recusandae, esse laborum error dolores quasi dolor debitis ut aspernatur! At voluptate ratione iure aliquam animi eum aut ipsam excepturi soluta tempore magni, amet enim velit quae!</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
