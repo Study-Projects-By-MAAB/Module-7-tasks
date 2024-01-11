@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>4th Task</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+          .container {
+            width: 100%;
+            display: grid;
+            gap: 0.5em;
+            /* justify-content: center; */
+          }
+          .item img {
+            width: 100%;
+          }
+          .item {
+            width: 100%;
+            border: 1px solid;
+            display: grid;
+            grid-template-columns: repeat(2, 30%);
+            /* align-items: center; */
+            gap: 0.5em;
+          }
+          @media screen and (max-width: 576px) {
+          }
+        </style>
+      </head>
+      <body>
+        <section class="container">
+          <div class="item one">
+            <img
+              src="https://www.cnet.com/a/img/resize/36e8e8fe542ad9af413eb03f3fbd1d0e2322f0b2/hub/2023/02/03/afedd3ee-671d-4189-bf39-4f312248fb27/gettyimages-1042132904.jpg?auto=webp&fit=crop&height=1200&width=1200"
+              alt=""
+            />
+            <div class="para">
+              <h2>Post Title Will Be Here</h2>
+              <p>
+                Aperiam provident dolor voluptatum commodi non, quos consequatur
+                magnam iusto, beatae quo impedit cupiditate neque ipsum! Nisi
+                aperiam quasi a?
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="item two">
+            <img
+              src="https://images.theconversation.com/files/368263/original/file-20201109-22-lqiq5c.jpg?ixlib=rb-1.1.0&rect=10%2C0%2C6699%2C4476&q=45&auto=format&w=926&fit=clip"
+              alt=""
+            />
+            <div class="para">
+              <h2>Post Title Will Be Here</h2>
+              <p>
+                Aperiam provident dolor voluptatum commodi non, quos consequatur
+                magnam iusto, beatae quo impedit cupiditate neque ipsum! Nisi
+                aperiam quasi a?
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </section>
+      </body>
+    </html>
+  </body>
 </html>
