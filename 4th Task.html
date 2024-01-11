@@ -16,21 +16,39 @@
           .container {
             width: 100%;
             display: grid;
+            grid-template-columns: repeat(1, 1fr);
             gap: 0.5em;
-            /* justify-content: center; */
           }
           .item img {
             width: 100%;
           }
           .item {
             width: 100%;
-            border: 1px solid;
+            border: 1px solid rgb(192, 192, 192);
+            border-radius: 5px;
             display: grid;
-            grid-template-columns: repeat(2, 30%);
-            /* align-items: center; */
+            grid-template-columns: 30% repeat(1, 1fr);
             gap: 0.5em;
           }
+
+          .para {
+            padding: 10px;
+          }
+          .para button {
+            background-color: rgb(31, 102, 255);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 2vh;
+          }
           @media screen and (max-width: 576px) {
+            .item {
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+            }
+            .item {
+              border: none;
+            }
           }
         </style>
       </head>
@@ -44,9 +62,10 @@
             <div class="para">
               <h2>Post Title Will Be Here</h2>
               <p>
-                Aperiam provident dolor voluptatum commodi non, quos consequatur
-                magnam iusto, beatae quo impedit cupiditate neque ipsum! Nisi
-                aperiam quasi a?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Facilis architecto doloribus sunt. Minus facilis corrupti at
+                magni consectetur dolorem accusamus. Consequatur facilis et
+                laudantium repudiandae maiores neque voluptas impedit quos!
               </p>
               <button>Read More</button>
             </div>
@@ -59,9 +78,10 @@
             <div class="para">
               <h2>Post Title Will Be Here</h2>
               <p>
-                Aperiam provident dolor voluptatum commodi non, quos consequatur
-                magnam iusto, beatae quo impedit cupiditate neque ipsum! Nisi
-                aperiam quasi a?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                provident, quam impedit illum aut aperiam corrupti et reiciendis
+                accusantium obcaecati? Eos excepturi in libero, saepe voluptas
+                et fugit quos recusandae.
               </p>
               <button>Read More</button>
             </div>
